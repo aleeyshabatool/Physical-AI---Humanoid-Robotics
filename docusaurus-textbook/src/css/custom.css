@@ -1,0 +1,184 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Enhanced professional theme variables */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+  --ifm-font-color-base: #333333;
+  --ifm-heading-color: #1a3c2a;
+  --ifm-footer-background-color: #1a3c2a;
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-link-color: #a0d6b4;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --ifm-menu-color: #333333;
+  --ifm-menu-color-background-active: #e8f5ee;
+  --ifm-menu-color-active: #2e8555;
+  --ifm-link-color: #2e8555;
+  --ifm-link-hover-color: #205d3b;
+  --ifm-border-color: #e1e5e9;
+  
+  /* Card styling */
+  --ifm-card-background-color: #ffffff;
+  --ifm-card-border-color: #e1e5e9;
+  --ifm-card-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #38c793;
+  --ifm-color-primary-dark: #32b384;
+  --ifm-color-primary-darker: #2fa97d;
+  --ifm-color-primary-darkest: #278b67;
+  --ifm-color-primary-light: #4ccd9d;
+  --ifm-color-primary-lighter: #56d0a3;
+  --ifm-color-primary-lightest: #74d9b4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+  /* Dark mode professional theme variables */
+  --ifm-background-color: #0f1a14;
+  --ifm-background-surface-color: #1a2a21;
+  --ifm-font-color-base: #e6e6e6;
+  --ifm-heading-color: #ffffff;
+  --ifm-footer-background-color: #0a130e;
+  --ifm-footer-color: #e6e6e6;
+  --ifm-footer-link-color: #74d9b4;
+  --ifm-navbar-background-color: #1a2a21;
+  --ifm-navbar-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --ifm-menu-color: #e6e6e6;
+  --ifm-menu-color-background-active: #22382d;
+  --ifm-menu-color-active: #38c793;
+  --ifm-link-color: #38c793;
+  --ifm-link-hover-color: #56d0a3;
+  --ifm-border-color: #2d4035;
+  
+  /* Card styling for dark mode */
+  --ifm-card-background-color: #1a2a21;
+  --ifm-card-border-color: #2d4035;
+  --ifm-card-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced typography for better readability */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+/* Improved navbar */
+.navbar {
+  border-bottom: 1px solid var(--ifm-border-color);
+}
+
+.navbar__link {
+  font-weight: 500;
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Better sidebar */
+.menu {
+  padding-top: 1rem;
+}
+
+.menu__link {
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+/* Card improvements */
+.card {
+  border: 1px solid var(--ifm-card-border-color);
+  border-radius: 8px;
+  box-shadow: var(--ifm-card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.button {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Footer improvements */
+.footer {
+  border-top: 1px solid var(--ifm-border-color);
+}
+
+.footer__links {
+  margin-bottom: 2rem;
+}
+
+/* Code block styling */
+pre {
+  border-radius: 8px;
+}
+
+/* Table styling */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Breadcrumb improvements */
+.breadcrumbs__link {
+  color: var(--ifm-color-primary);
+}
+
+.breadcrumbs__link:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Pagination improvements */
+.pagination-nav__link {
+  border: 1px solid var(--ifm-border-color);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
