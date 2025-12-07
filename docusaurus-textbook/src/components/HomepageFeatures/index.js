@@ -10,21 +10,21 @@ const DocsTopics = [
     title: 'Tutorial Intro',
     description: 'Get started with Physical AI and Humanoid Robotics - Overview and prerequisites',
     icon: '🎯',
-    link: '/docs/intro',
+    link: '/intro',
     color: '#7c3aed', // Purple
   },
   {
     title: 'Introduction to Physical AI & Humanoid Robotics',
     description: 'Learn the fundamentals of Physical AI, robotics principles, and humanoid robot architecture',
     icon: '🤖',
-    link: '/docs/chapter-1-introduction',
+    link: '/chapter-1-introduction',
     color: '#2563eb', // Blue
   },
   {
     title: 'ROS 2 Fundamentals',
     description: 'Master ROS 2 basics, nodes, topics, services, and the ROS 2 ecosystem',
     icon: '🔄',
-    link: '/docs/chapter-2-ros2-fundamentals',
+    link: '/chapter-2-ros2-fundamentals',
     color: '#0d9488', // Teal
   },
   {
@@ -38,28 +38,28 @@ const DocsTopics = [
     title: 'Simulating Robots with Gazebo',
     description: 'Create and simulate robots using Gazebo simulator with ROS 2 integration',
     icon: '🌍',
-    link: '/docs/chapter-4-simulating-robots-gazebo',
+    link: '/chapter-4-simulating-robots-gazebo',
     color: '#ea580c', // Orange
   },
   {
     title: 'Introduction to NVIDIA Isaac and Omniverse',
     description: 'Explore NVIDIA Isaac platform and Omniverse for robotic simulation',
     icon: '🎮',
-    link: '/docs/chapter-5-nvidia-isaac-omniverse',
+    link: '/chapter-5-nvidia-isaac-omniverse',
     color: '#10b981', // Emerald
   },
   {
     title: 'Building & Simulating Robots in Isaac Sim',
     description: 'Practical guide to building and simulating robots using Isaac Sim',
     icon: '🏗️',
-    link: '/docs/chapter-6-building-simulating-isaac-sim',
+    link: '/chapter-6-building-simulating-isaac-sim',
     color: '#8b5cf6', // Violet
   },
   {
     title: 'AI and Perception in Isaac Sim',
     description: 'Implement AI, computer vision, and perception systems in robotic simulations',
     icon: '👁️',
-    link: '/docs/chapter-7-ai-perception-isaac-sim',
+    link: '/chapter-7-ai-perception-isaac-sim',
     color: '#f59e0b', // Amber
   },
 ];
