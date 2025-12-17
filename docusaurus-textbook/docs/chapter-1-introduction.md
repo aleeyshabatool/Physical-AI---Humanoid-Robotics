@@ -1,4 +1,6 @@
 ---
+id: intro
+slug: /intro
 title: 'Chapter 1: Introduction to Physical AI and Humanoid Robotics'
 description: 'An overview of the field, its history, key concepts, and the structure of the course.'
 sidebar_position: 2
